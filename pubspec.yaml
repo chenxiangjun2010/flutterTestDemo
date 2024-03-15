@@ -1,5 +1,5 @@
 name: xiaoerban_business
-description: 清源水务项目管理平台
+description: 一个项目管理平台
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev

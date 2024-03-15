@@ -481,7 +481,7 @@
 				DEVELOPMENT_TEAM = 4U3J8AB4W9;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "清源水务项目管理平台";
+				INFOPLIST_KEY_CFBundleDisplayName = "一个项目管理平台";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 				DEVELOPMENT_TEAM = 4U3J8AB4W9;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "清源水务项目管理平台";
+				INFOPLIST_KEY_CFBundleDisplayName = "一个项目管理平台";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -694,7 +694,7 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = U453TZ5468;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "清源水务项目管理平台";
+				INFOPLIST_KEY_CFBundleDisplayName = "一个项目管理平台";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
