@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.bbflight.background_downloader" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="21"
+7-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="21" />
+8-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml
+9
+10    <application>
+10-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:4:5-29:19
+11        <receiver
+11-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:6:9-16:20
+12            android:name="com.bbflight.background_downloader.NotificationReceiver"
+12-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:6:19-54
+13            android:exported="false" >
+13-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:6:55-79
+14            <intent-filter>
+14-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:7:13-9:29
+15                <action android:name="com.bbflight.background_downloader.cancelActive" />
+15-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:8:17-90
+15-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:8:25-87
+16            </intent-filter>
+17            <intent-filter>
+17-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:10:13-12:29
+18                <action android:name="com.bbflight.background_downloader.pause" />
+18-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:11:17-83
+18-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:11:25-80
+19            </intent-filter>
+20            <intent-filter>
+20-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:13:13-15:29
+21                <action android:name="com.bbflight.background_downloader.resume" />
+21-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:14:17-84
+21-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:14:25-81
+22            </intent-filter>
+23        </receiver>
+24
+25        <provider
+25-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:18:9-27:20
+26            android:name="com.bbflight.background_downloader.OpenFileProvider"
+26-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:19:13-79
+27            android:authorities="${applicationId}.com.bbflight.background_downloader.fileprovider"
+27-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:20:13-99
+28            android:exported="false"
+28-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:21:13-37
+29            android:grantUriPermissions="true"
+29-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:22:13-47
+30            tools:replace="android:authorities" >
+30-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:23:13-48
+31            <meta-data
+31-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:24:13-26:58
+32                android:name="android.support.FILE_PROVIDER_PATHS"
+32-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:25:17-67
+33                android:resource="@xml/bgd_file_paths" />
+33-->C:\Users\admin\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\background_downloader-8.3.0\android\src\main\AndroidManifest.xml:26:17-55
+34        </provider>
+35    </application>
+36
+37</manifest>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "cc.nasme.xiaoerban_business.app-merged_res-53:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "cc.nasme.xiaoerban_business.app-main-45:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "cc.nasme.xiaoerban_business.app-merged_res-53:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "cc.nasme.xiaoerban_business.app-main-45:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "cc.nasme.xiaoerban_business.app-merged_res-53:/drawable-v21_launch_background.xml.flat",
+        "source": "cc.nasme.xiaoerban_business.app-main-45:/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "cc.nasme.xiaoerban_business.app-merged_res-53:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "cc.nasme.xiaoerban_business.app-main-45:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "cc.nasme.xiaoerban_business.app-merged_res-53:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "cc.nasme.xiaoerban_business.app-main-45:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "cc.nasme.xiaoerban_business.app-merged_res-53:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "cc.nasme.xiaoerban_business.app-main-45:/mipmap-hdpi/ic_launcher.png"
+    }
+]
